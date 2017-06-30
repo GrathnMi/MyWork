@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012249436912}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012249436912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000011705152342}
+  - component: {fileID: 114000011498302736}
+  - component: {fileID: 114000011821364556}
+  - component: {fileID: 114000012559952562}
+  - component: {fileID: 114334683832198412}
+  m_Layer: 0
+  m_Name: GameControlObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011705152342
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012249436912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011498302736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012249436912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd24978244dedf8419f18ef790938d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 1000011483299808, guid: bbaa35fc9b55851498d16f0f423b18fb,
+    type: 2}
+  shipPrefab: {fileID: 179964, guid: 37c0882899bc8cc45a24b6f782a65446, type: 2}
+  EnemyAIPrefab: {fileID: 1000011794221122, guid: ec3db9f157e3fe54ca19320d303439c7,
+    type: 2}
+  ShipExplosionPrefab: {fileID: 1000010172533156, guid: 2d9c4e195e272f745980824fd46e0921,
+    type: 2}
+  victoryUI: {fileID: 0}
+  victoryText: {fileID: 0}
+--- !u!114 &114000011821364556
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012249436912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 247
+    i1: 43
+    i2: 19
+    i3: 156
+    i4: 107
+    i5: 15
+    i6: 163
+    i7: 36
+    i8: 106
+    i9: 140
+    i10: 212
+    i11: 88
+    i12: 116
+    i13: 175
+    i14: 143
+    i15: 53
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114000012559952562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012249436912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228cff115b0ae3d4aa0b9ba869e8bdfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pool_ObjPrefab: {fileID: 179964, guid: 37c0882899bc8cc45a24b6f782a65446, type: 2}
+  pool_NumStartObjects: 10
+  pooled_Objects: []
+  shipExplotion_Prefab: {fileID: 1000010172533156, guid: 2d9c4e195e272f745980824fd46e0921,
+    type: 2}
+--- !u!114 &114334683832198412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012249436912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323ea937c91bc3d44b75f745001af44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 0}
+  ShipExplosionPrefab: {fileID: 0}
